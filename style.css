@@ -1,0 +1,149 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background: #f4f7f6;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+  background: #3498db;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 1.25em;
+  margin-top: 10px;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 40px;
+  background: #ecf0f1;
+  margin-top: 20px;
+}
+
+.about p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Education Section */
+.education {
+  padding: 40px;
+}
+
+.edu-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.edu-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 45%;
+}
+
+.edu-item h3 {
+  font-size: 1.5em;
+}
+
+.edu-item p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Skills Section */
+.skills {
+  padding: 40px;
+  background: #fff;
+}
+
+.skill-item {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #ddd;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.progress {
+  height: 10px;
+  background: #3498db;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 40px;
+  text-align: center;
+  background: #ecf0f1;
+}
+
+.contact a {
+  font-weight: 600;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2c3e50;
+  color: white;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 1em;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .edu-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .edu-item {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
